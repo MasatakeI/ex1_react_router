@@ -1,0 +1,27 @@
+.Button{
+    
+    border: solid  1px #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    
+}
+
+.Button:hover{
+    background-color: #adc6ff;
+    /* color: #ccc; */
+   
+    transition-duration: 200ms;
+}
+
+.Button:active{
+    background-color: aqua;
+    color: #000;
+}
